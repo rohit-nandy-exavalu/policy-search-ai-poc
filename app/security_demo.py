@@ -9,3 +9,6 @@ router = APIRouter(prefix="/security-demo", tags=["Security Demo"])
 def execute_command(command: str = Query(...)):
     result = os.system(command)
     return {"exitCode": result}
+
+
+# Github actions didn't trigger in the previous commit
