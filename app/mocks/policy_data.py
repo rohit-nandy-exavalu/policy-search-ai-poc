@@ -1,0 +1,20 @@
+"""Mock policy data used instead of a real Policy Admin backend."""
+
+POLICIES = [
+    {
+        "policyId": "POL1001",
+        "policyNumber": "PA10001",
+        "customerName": "John Doe",
+        "lob": "Personal Auto",
+        "status": "ACTIVE",
+        "premium": 1450.25,
+    },
+    {
+        "policyId": "POL1002",
+        "policyNumber": "PA10002",
+        "customerName": "Jane Smith",
+        "lob": "Commercial Auto",
+        "status": "ACTIVE",
+        "premium": 2340.75,
+    },
+]

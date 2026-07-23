@@ -1,9 +1,0 @@
-{
-    "timestamp": "2026-07-23T06:13:13.939688",
-    "endpoint": "/policies/search",
-    "status": "SUCCESS",
-    "request": {
-        "policyNumber": null,
-        "customerName": "John Doe"
-    }
-}
