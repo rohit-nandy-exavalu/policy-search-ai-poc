@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.routes import router
+from app.security_demo import router as security_demo_router
 import logging
 
 logging.basicConfig(
@@ -7,6 +8,7 @@ logging.basicConfig(
 )
 app = FastAPI(title="Policy Search AI POC")
 app.include_router(router)
+app.include_router(security_demo_router)
 
 
 @app.get("/health")
